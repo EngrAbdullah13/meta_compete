@@ -4,7 +4,7 @@ import pandas as pd
 import re
 import nltk
 from nltk.corpus import stopwords
-import google.generativeai as genai # type: ignore
+import google.generativeai as genai
 from dotenv import load_dotenv
 import os
 
@@ -156,7 +156,7 @@ with tab1:
 # TAB 2: LLM SUGGESTION MODULE
 
 with tab2:
-    st.subheader("Gemini Caption Improvement Suggestions")
+    st.subheader("Ai Suggestions")
 
     # --- UPDATED BUTTON LOGIC TO PASS CONTEXT ---
     if st.button("Get Enhanced Suggestions"):
